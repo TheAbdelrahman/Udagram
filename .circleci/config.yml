@@ -43,12 +43,12 @@ jobs:
           command: |
             npm run api:build
       # Deploying the frontend to AWS S3
-            - run:
+      - run:
           name: deploy website to s3
           command: |
             npm run frontend:deploy
       # Deploying the Backend to EB
-            - run:
+      - run:
           name: deploy server to elastic beanstalk
           command: |
             npm run api:deploy
