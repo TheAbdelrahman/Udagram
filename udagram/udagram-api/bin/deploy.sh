@@ -1,0 +1,2 @@
+eb deploy udagram-env
+# eb setenv PORT=5432 JWT_SECRET=z1a2q5w8j6f4dn2gf5g5h7h POSTGRES_HOST=database-1.cam7rgpjid44.us-east-1.rds.amazonaws.com POSTGRES_USERNAME=postgres POSTGRES_DB=database-1 POSTGRES_PASSWORD=postgres AWS_SECRET_ACCESS_KEY=IcbAkWI1s/bWimWbgjxGawNxPTH6vfHo9rQAerC/ AWS_ACCESS_KEY_ID=AKIA5GLOINZA45DFKC6K AWS_REGION=us-east-1 AWS_PROFILE=default AWS_BUCKET=udagram712 URL=http://udagram-env.eba-znuh8gun.us-east-1.elasticbeanstalk.com/
