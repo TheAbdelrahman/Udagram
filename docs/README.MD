@@ -17,14 +17,14 @@
 
 ```
 
-## AWS Setup
+## Infrastructure
 
 s3 bucket: <http://udagram712.s3-website-us-east-1.amazonaws.com>
 RDS host: database-1.cam7rgpjid44.us-east-1.rds.amazonaws.com
 RDS PORT : 5432
 Elastic Beanstalk: <http://udagram-env.eba-znuh8gun.us-east-1.elasticbeanstalk.com/>
 
-## Environment Variable Set via Circleci
+## Environment Variables Set via Circleci
 
 ### APP
 
@@ -50,7 +50,7 @@ PORT
 - AWS_BUCKET
 - URL
 
-## Circleci
+## Pipeline : Circleci
 
 - Configure elastic beanstalk
 - Setup aws-cli
@@ -61,3 +61,5 @@ PORT
 - Build API
 - deploy website to s3
 - deploy server to elastic beanstalk
+
+Check diagrams folder for more details about archticture and pipeline.
